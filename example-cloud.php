@@ -8,7 +8,7 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$authenticator = new \Hola\SDK\Authenticator\Cloud('ACME Inc', 'My Awesome Application', 'you@acmeinc.com', 'hard to guess, easy to remember');
+$authenticator = new \Hola\SDK\Authenticator\Cloud('Name Inc', 'My Awesome Application', 'test@domain.com', 'hard to guess, easy to remember');
 
 // Show all Hola and up account that this user has access to
 print_r($authenticator->getAccounts());
