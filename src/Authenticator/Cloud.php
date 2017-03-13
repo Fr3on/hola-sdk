@@ -129,7 +129,7 @@ class Cloud extends Authenticator
     }
 
     /**
-     * Load account and user details from Active Collab ID.
+     * Load account and user details from Hola ID.
      */
     private function loadAccountsAndUser()
     {
